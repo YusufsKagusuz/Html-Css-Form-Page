@@ -1,0 +1,84 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 20px;
+}
+.form-control{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.form-group
+{
+   margin-bottom: 8px; 
+}
+label
+{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.form-control:focus
+{
+   border-color:  #80bdff;
+    outline: 0;
+}
+.btn
+{
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+.btn:hover
+{
+   background-color: #0069d9;
+   border: 1px solid #0069d9;
+}
+
+.col-25
+{
+    float: left;
+    width: 20%;
+    
+}
+.col-75
+{
+    float: left;
+    width: 80%;
+}
+/*Bunları hata aldığımda uyarı olarak border'ların renklerini değiştirebiliriz.
+.is-success
+{
+    border-color: #28a745;
+}
+.is-error
+{
+    border-color: #dc3545;
+}
+.is-success
+{
+    border-color: #ffc107;
+}
+*/
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form-2
+{
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,.16), 
+                        20px 8px 8px 2px rgba(0,0,0,.30);
+}
